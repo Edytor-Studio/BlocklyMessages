@@ -956,6 +956,77 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_INPUT = 'join items using separator %1 list %2';
     Blockly.Msg.LANG_LISTS_JOIN_WITH_SEPARATOR_TOOLTIP = 'Returns text with list elements joined with separator';
 
+    Blockly.Msg.LANG_LISTS_MAP_HELPURL = "https://docs.kodular.io/blocks/lists#map";
+    Blockly.Msg.LANG_LISTS_MAP_NONDEST_TITLE_MAP = "make new list from";
+    Blockly.Msg.LANG_LISTS_MAP_INPUT_ITEM = "mapping each";
+    Blockly.Msg.LANG_LISTS_MAP_INPUT_VAR = "item";
+    Blockly.Msg.LANG_LISTS_MAP_INPUT_TO = "to";
+    Blockly.Msg.LANG_LISTS_MAP_INPUT_COLLAPSED_TEXT = "map list";
+    Blockly.Msg.LANG_LISTS_MAP_TOOLTIP = "Maps each item in the list to a new item. Use the given variable name to refer to the current list item.";
+
+    Blockly.Msg.LANG_LISTS_FILTER_HELPURL = "https://docs.kodular.io/blocks/lists#filter";
+    Blockly.Msg.LANG_LISTS_FILTER_NONDEST_TITLE_FILTER = "make new filtered list from ";
+    Blockly.Msg.LANG_LISTS_FILTER_INPUT_ITEM = "keeping each ";
+    Blockly.Msg.LANG_LISTS_FILTER_INPUT_VAR = "item";
+    Blockly.Msg.LANG_LISTS_FILTER_INPUT_PASSING = "passing ";
+    Blockly.Msg.LANG_LISTS_FILTER_INPUT_TEST = "test";
+    Blockly.Msg.LANG_LISTS_FILTER_INPUT_COLLAPSED_TEXT = "filter list";
+    Blockly.Msg.LANG_LISTS_FILTER_TOOLTIP = "Keeps each item in the list satisfying the block in the \"test\" section. Use the given variable name to refer to the current list item.";
+
+    Blockly.Msg.LANG_LISTS_REDUCE_HELPURL = "https://docs.kodular.io/blocks/lists#reduce";
+    Blockly.Msg.LANG_LISTS_REDUCE_TITLE_REDUCE = "reduce";
+    Blockly.Msg.LANG_LISTS_REDUCE_INPUT_INLIST = "list";
+    Blockly.Msg.LANG_LISTS_REDUCE_INPUT_INITIAL_ANSWER = "starting with initialAnswer";
+    Blockly.Msg.LANG_LISTS_REDUCE_INPUT_COMBINE = "by combining";
+    Blockly.Msg.LANG_LISTS_REDUCE_INPUT_VAR = "item ";
+    Blockly.Msg.LANG_LISTS_REDUCE_INPUT_AND = "and";
+    Blockly.Msg.LANG_LISTS_REDUCE_INPUT_ANSWER = "answerSoFar";
+    Blockly.Msg.LANG_LISTS_REDUCE_INPUT_COLLAPSED_TEXT = "reduce list";
+    Blockly.Msg.LANG_LISTS_REDUCE_TOOLTIP = "Reduces the list to a single value by combining the list elements using the block in the body section. If the list is empty, initialAnswer is returned. Otherwise, the function is first applied to initialAnswer and the first list item, and then on the accumulating answer and the next list item. This continues until the end of the list.";
+
+    Blockly.Msg.LANG_LISTS_SORT_HELPURL = "https://docs.kodular.io/blocks/lists#sort";
+    Blockly.Msg.LANG_LISTS_SORT_NONDEST_TITLE_SORT = "make new sorted list from";
+    Blockly.Msg.LANG_LISTS_SORT_TOOLTIP = "Sorts list in ascending order.";
+    Blockly.Msg.LANG_LISTS_SORT_TYPEBLOCK = "sort list";
+
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_HELPURL = "https://docs.kodular.io/blocks/lists#sortwithcomparator";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_NONDEST_TITLE_SORT = "make new sorted list from";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_INPUT_COMPARATOR = "where ";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_INPUT_VAR1 = "item1";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_INPUT_AND = "precedes";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_INPUT_VAR2 = "item2";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_INPUT_COMPARATOR2 = "if";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_INPUT_COLLAPSED_TEXT = "sort list using comparator";
+    Blockly.Msg.LANG_LISTS_SORT_COMPARATOR_TOOLTIP = "Sorts list using a comparison function that takes in two list items. The comparison function returns true or false and determines the ordering of list items.";
+
+    Blockly.Msg.LANG_LISTS_SORT_KEY_HELPURL = "https://docs.kodular.io/blocks/lists#sortwithkey";
+    Blockly.Msg.LANG_LISTS_SORT_KEY_NONDEST_TITLE_SORT = "make new sorted list from";
+    Blockly.Msg.LANG_LISTS_SORT_KEY_INPUT_KEY = "using key called on each ";
+    Blockly.Msg.LANG_LISTS_SORT_KEY_INPUT_VAR = "item";
+    Blockly.Msg.LANG_LISTS_SORT_KEY_INPUT_COLLAPSED_TEXT = "sort list using key";
+    Blockly.Msg.LANG_LISTS_SORT_KEY_TOOLTIP = "Sorts list using a key function that is applied to each list item prior to sorting. The value returned by the key function is used for sorting.";
+
+    Blockly.Msg.LANG_LISTS_MIN_NUMBER_HELPURL = "https://docs.kodular.io/blocks/lists#minnumber";
+    Blockly.Msg.LANG_LISTS_MIN_NUMBER_INPUT_MIN = "minimum number in the list";
+    Blockly.Msg.LANG_LISTS_MIN_NUMBER_TOOLTIP = "Returns minimum number in the list";
+
+    Blockly.Msg.LANG_LISTS_MAX_NUMBER_HELPURL = "https://docs.kodular.io/blocks/lists#maxnumber";
+    Blockly.Msg.LANG_LISTS_MAX_NUMBER_INPUT_MAX = "maximum number in the list";
+    Blockly.Msg.LANG_LISTS_MAX_NUMBER_TOOLTIP = "Returns maximum number in the list";
+
+    Blockly.Msg.LANG_LISTS_BUT_FIRST_HELPURL = "https://docs.kodular.io/blocks/lists#butfirst";
+    Blockly.Msg.LANG_LISTS_BUT_FIRST_INPUT_BUT_FIRST = "butFirst of list";
+    Blockly.Msg.LANG_LISTS_BUT_FIRST_TOOLTIP = "Returns everything except the first value of the list";
+
+    Blockly.Msg.LANG_LISTS_BUT_LAST_HELPURL = "https://docs.kodular.io/blocks/lists#butlast";
+    Blockly.Msg.LANG_LISTS_BUT_LAST_INPUT_BUT_LAST = "butLast of list";
+    Blockly.Msg.LANG_LISTS_BUT_LAST_TOOLTIP = "Returns everything except the last value of the list";
+
+    Blockly.Msg.LANG_LISTS_SLICE_HELPURL = "https://docs.kodular.io/blocks/lists#slices";
+    Blockly.Msg.LANG_LISTS_SLICE_INPUT = "slice list %1 index1 %2 index2 %3";
+    Blockly.Msg.LANG_LISTS_SLICE_TITLE_SLICE = "slice list";
+    Blockly.Msg.LANG_LISTS_SLICE_TOOLTIP = "Returns list values from index1 up to but not including index2",
+
     /*Blockly.Msg.LANG_LISTS_INDEX_OF_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_INDEX_OF_TITLE_FIND = 'find';
      Blockly.Msg.LANG_LISTS_INDEX_OF_INPUT_OCCURRENCE = 'occurrence of item';
@@ -1205,9 +1276,6 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_SET = 'set ';
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_TO = ' to';
     Blockly.Msg.LANG_COMPONENT_BLOCK_GENERIC_SETTER_TITLE_OF_COMPONENT = 'of component';
-
-    Blockly.Msg.LANG_SCREENS_TITLE = "Screen Name: ",
-    Blockly.Msg.LANG_NO_ASSETS = "No available assets",
 
 ///////////////////
     /* HelpURLs for Component Blocks */
